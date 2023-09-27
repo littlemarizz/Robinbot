@@ -64,7 +64,7 @@ class MyView(discord.ui.View):
         placeholder="Please pick a ticket option",
         options=[
             discord.SelectOption(
-                label="Partnership",  #Name of the 1 Select Menu Option
+                label="Administration",  #Name of the 1 Select Menu Option
                 description="Use this for Partnership requests",  #Description of the 1 Select Menu Option
                 emoji="<:Blue_Star:1156402273937788940>",        #Emoji of the 1 Option  if you want a Custom Emoji read this  https://github.com/Simoneeeeeeee/Discord-Select-Menu-Ticket-Bot/tree/main#how-to-use-custom-emojis-from-your-discors-server-in-the-select-menu
                 value="support1"   #Don't change this value otherwise the code will not work anymore!!!!
