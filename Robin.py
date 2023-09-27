@@ -44,7 +44,7 @@ bot = commands.Bot(command_prefix='.',
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(1155577174879895683)
+    channel = bot.get_channel(1155578794418126868)
     star = "{ ✧ }"
     embed=discord.Embed(
         title="· ・{ {<:Moon_insignia:1156343361356189716> Welcome to Robin Mains!",
