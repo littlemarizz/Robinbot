@@ -48,7 +48,7 @@ async def on_member_join(member):
     star = "{ ✧ }"
     embed=discord.Embed(
         title="· ・{ <:Moon_insignia:1156343361356189716> Welcome to Robin Mains!",
-        description=f'> ***"This is the Dreamscape, I am an agent of Watchmaker."***\n\n · · · · · · · · · · · · · · · · ꒰ა { star } ໒꒱ · · · · · · · · · · · · · · · · \n\n > <:Star:1156343147954192546> First off, please take a look at our <#1155578876005728256> channel so you can be familiar with our server expectations. \n > <:Star:1156343147954192546> Next, head over to <1155578913364377660> for some roles to personalize your server profile. \n > <:Star:1156343147954192546> If there are any issues or problems, please feel free to <#1155986648597803049> when needed. \n > <:Star:1156343147954192546> Feel free to head over to the <#1155578893735047188> when getting lost.',
+        description=f'> ***"This is the Dreamscape, I am an agent of Watchmaker."***\n\n · · · · · · · · · · · · · · · · ꒰ა { star } ໒꒱ · · · · · · · · · · · · · · · · \n\n > <:Star:1156343147954192546> First off, please take a look at our <#1155578876005728256> channel so you can be familiar with our server expectations. \n > <:Star:1156343147954192546> Next, head over to <#1155578913364377660> for some roles to personalize your server profile. \n > <:Star:1156343147954192546> If there are any issues or problems, please feel free to <#1155986648597803049> when needed. \n > <:Star:1156343147954192546> Feel free to head over to the <#1155578893735047188> when getting lost.',
         color=0x9ba2f0,
         )
     embed.set_author(name=member.name, icon_url=member.avatar.url)
